@@ -1,0 +1,24 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Efecto de scroll suave */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Estilos personalizados para los chips de tecnología */
+.tech-chip {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    font-weight: 500;
+    font-size: 0.875rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.tech-chip:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
